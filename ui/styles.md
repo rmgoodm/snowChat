@@ -12,7 +12,7 @@
         z-index: 100;
     }
     h1 {
-        font-family: 'Raleway', serif;
+        font-family: 'Raleway', serif, light; color:#344767;
     }
     .user-avatar {
         float: right;
