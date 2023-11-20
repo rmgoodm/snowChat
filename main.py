@@ -17,7 +17,7 @@ st.title("DataTools Pro - Steward")
 st.caption("Your smart data and metrics steward")
 model = st.radio(
     "",
-    options=["✨ GPT-4", "🐐 code-LLama", "♾️ Claude"],
+    options=["✨ GPT-3.5", "🐐 code-LLama", "♾️ Claude"],
     index=0,
     horizontal=True,
 )
