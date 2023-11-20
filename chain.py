@@ -2,6 +2,11 @@ from typing import Any, Callable, Dict, Optional
 
 import boto3
 import streamlit as st
+# For the Snowflake Connector
+import snowflake.connector
+# For Snowpark (if you're using it)
+from snowflake.snowpark import Session
+
 from langchain.chains import ConversationalRetrievalChain, LLMChain
 from langchain.chains.question_answering import load_qa_chain
 from langchain.chat_models import ChatOpenAI

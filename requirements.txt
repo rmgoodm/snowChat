@@ -1,7 +1,7 @@
 langchain==0.0.305
 pandas==1.5.0
 pydantic==1.10.8
-snowflake_snowpark_python==1.5.0
+snowflake_snowpark_python==1.10.0
 snowflake-snowpark-python[pandas]
 streamlit==1.27.1
 supabase==1.0.3
