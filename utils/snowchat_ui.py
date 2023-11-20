@@ -51,7 +51,7 @@ def message_func(text, is_user=False, is_df=False):
             unsafe_allow_html=True,
         )
     else:
-        avatar_url = "https://avataaars.io/?avatarStyle=Transparent&topType=WinterHat2&accessoriesType=Kurt&hatColor=Blue01&facialHairType=MoustacheMagnum&facialHairColor=Blonde&clotheType=Overall&clotheColor=Gray01&eyeType=WinkWacky&eyebrowType=SadConcernedNatural&mouthType=Sad&skinColor=Light"
+        avatar_url = "https://datatoolspro.com/wp-content/uploads/2023/04/xxl_icon.png"
         message_alignment = "flex-start"
         message_bg_color = "#71797E"
         avatar_class = "bot-avatar"
