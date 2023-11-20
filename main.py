@@ -144,9 +144,8 @@ if st.session_state.messages[-1]["role"] != "assistant":
         print(result)
         append_message(result)
         
-        if get_sql(result):
-             conn = SnowflakeConnection().get_session()
-             df = execute_sql(get_sql(result), conn)
-             if df is not None:
-                callback_handler.display_dataframe(df)
-                 append_message(df, "data", True)
+     #   if get_sql(result):
+      #       conn = SnowflakeConnection().get_session()
+       #      df = execute_sql(get_sql(result), conn)
+        #     if df is not None:
+         #       append_message(df, "data", True)
