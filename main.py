@@ -13,11 +13,11 @@ warnings.filterwarnings("ignore")
 chat_history = []
 snow_ddl = Snowddl()
 
-st.title("snowChat")
-st.caption("Talk your way through data")
+st.title("DataTools Pro - Steward")
+st.caption("Your smart data and metrics steward")
 model = st.radio(
     "",
-    options=["✨ GPT-3.5", "🐐 code-LLama", "♾️ Claude"],
+    options=["✨ GPT-4", "🐐 code-LLama", "♾️ Claude"],
     index=0,
     horizontal=True,
 )
@@ -28,7 +28,7 @@ INITIAL_MESSAGE = [
     {"role": "user", "content": "Hi!"},
     {
         "role": "assistant",
-        "content": "Hey there, I'm Chatty McQueryFace, your SQL-speaking sidekick, ready to chat up Snowflake and fetch answers faster than a snowball fight in summer! ❄️🔍",
+        "content": "Hey there, your data steward co-pilot created by the DataTools Pro team. Let's get down to business using your business metrics in Snowflake ❄️🔍",
     },
 ]
 
